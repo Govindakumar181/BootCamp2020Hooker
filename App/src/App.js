@@ -8,7 +8,7 @@ function App() {
   return(
     <div className={isMorning ? 'box' : 'Night' }>
       <h1>Hello World</h1>
-      <h3>Time = { isMorning ? 'Morning' : 'Night' }</h3>
+      <h3>Time Right now = { isMorning ? 'Morning' : 'Night' }</h3>
       <Msg counter={count} />
       <button onClick={
         ()=>setCount(count+1)
